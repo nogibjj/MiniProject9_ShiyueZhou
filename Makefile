@@ -21,5 +21,13 @@ refactor: format lint
 
 deploy:
 	#deploy goes here
+
+generate_and_push:
+	python main.py
+	git confit --local user.email "action@github.com";
+	git confit --local user.name "GitHub Action";
+	git add .
+	git commit -m "test"
+	git push
 		
 all: install lint test format deploy
