@@ -24,8 +24,8 @@ deploy:
 
 generate_and_push:
 	python main.py
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
+	git confit --local user.email "action@github.com";
+	git confit --local user.name "GitHub Action";
 	git add .
 	git commit -m "test"
 	git push
