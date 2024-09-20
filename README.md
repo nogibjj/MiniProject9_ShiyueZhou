@@ -8,17 +8,17 @@
 
 ## Project Structure
 
-<h/> Jupyter Notebook with: </h>  
--- Cells that perform descriptive statistics using Polars or Panda.  
--- Tested by using nbval plugin for pytest  
-<h/> Makefile with the following: </h>  
--- Run all tests (must test notebook and script and lib)  
--- Formats code with Python black   
--- Lints code with Ruff   
--- Installs code via:  pip install -r requirements.txt  
+* <h/> **Jupyter Notebook with:** </h>  
+- Cells that perform descriptive statistics using Polars or Panda.  
+- Tested by using nbval plugin for pytest  
+* <h/> **Makefile with the following:** </h>  
+- Run all tests (must test notebook and script and lib)  
+- Formats code with Python black   
+- Lints code with Ruff   
+- Installs code via:  pip install -r requirements.txt  
 <h/> </h>  
--- test_script.py to test script  
--- test_lib.py to test library  
+*   test_script.py to test script  
+* test_lib.py to test library  
 -- Pinned requirements.txt  
 -- Gitlab Actions performs all four Makefile commands with badges for each one in the README.md  
 
