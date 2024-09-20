@@ -1,13 +1,30 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
+[![Format](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/format.yml)
+
+[![Install](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/install.yml)
+
+[![Lint](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/lint.yml)
+
+[![Test](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/test.yml)
+
+## Project Structure
+
+<h/> Jupyter Notebook with: </h>  
+-- Cells that perform descriptive statistics using Polars or Panda.  
+-- Tested by using nbval plugin for pytest  
+<h/> Makefile with the following: </h>  
+-- Run all tests (must test notebook and script and lib)  
+-- Formats code with Python black   
+-- Lints code with Ruff   
+-- Installs code via:  pip install -r requirements.txt  
+<h/> </h>  
+-- test_script.py to test script  
+-- test_lib.py to test library  
+-- Pinned requirements.txt  
+-- Gitlab Actions performs all four Makefile commands with badges for each one in the README.md  
+
+
 ## Template for Python projects with RUFF linter
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
-
-
-
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
-
-Things included are:
 
 * `Makefile`
 
@@ -17,7 +34,7 @@ Things included are:
 
 * `Ruff`:  
 
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
+Run `make lint` which runs `ruff check`. 
 
 * `Dockerfile`
 
@@ -29,9 +46,6 @@ Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff he
 
 * `githubactions`
 
-## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
 
 
 
