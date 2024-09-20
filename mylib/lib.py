@@ -4,12 +4,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset="https://raw.githubusercontent.com/fivethirtyeight/data/master/district-urbanization-index-2022/urbanization-index-2022.csv"
-
-def load_dataset():
-    df = pd.read_csv(dataset)
+# Data Loading
+def load_dataset(csv):
+    df = pd.read_csv(csv)
     return df
 
+# Data Stats
 def grab_mean(df, col):
     return df[col].mean()
 
@@ -32,7 +32,7 @@ def create_histogram(df, col):
     plt.xlabel(col)
     plt.ylabel('Frequency') 
     plt.grid(True)  #Add grid lines
-    plt.show() 
+    plt.savefig("plot_from_data.png")
     
 
 
