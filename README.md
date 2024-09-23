@@ -28,6 +28,10 @@ https://youtu.be/UoD38zbSrUc
 * **Gitlab Actions performs all four Makefile commands with badges for each one in the README.md**  
 
 
+## Project Report in Markdown  
+[Link Text](DescribeStat.md)
+## Project Report in Jupyter Notebook   
+[Link Text](main.ipynb)
 
 # Project Main Structure
 This section explains the purpose of each file and directory in the project.
