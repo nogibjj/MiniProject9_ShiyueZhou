@@ -21,9 +21,10 @@ def g_describe(csv):
 
 
 def save_to_md():
+    df = load_dataset(dataset)
     describe_df = g_describe(dataset)
     markdown_table1 = describe_df.to_markdown()
-    create_histogram(dataset, "rural")  ## create plot_from_data.png
+    create_histogram(df, "rural")  ## create plot_from_data.png
 
     # Write the markdown table to a file
     with open("DescribeStat.md", "a") as file:
