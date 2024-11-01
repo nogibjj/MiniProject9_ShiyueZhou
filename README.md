@@ -5,8 +5,13 @@
 ## Project Requirement
 
 * <h/>Set up a cloud-hosted Jupyter Notebook (e.g., Google Colab)</h>
-- Successfully setting up a cloud-hosted Jupyter Notebook at Google Colab.  
+
+    - Link to the cloud-hosted notebook:
+    https://colab.research.google.com/drive/1kspITpe9d4ItXeMfGK2nAq4lJx4YW56x?usp=sharing
+    - Successfully setting up a cloud-hosted Jupyter Notebook at Google Colab.  
 ![Data Manipulation Workflow](Colab_mini9.png)
+
+
  
 <h/> </h> 
 * <h/> Perform data manipulation tasks on a sample dataset </h>  
