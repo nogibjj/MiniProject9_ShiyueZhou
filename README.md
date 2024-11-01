@@ -1,11 +1,6 @@
-[![Format](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/format.yml)
+[![Format](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/format.yml)
 
-[![Install](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/install.yml)
-
-[![Lint](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/lint.yml)
-
-[![Test](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/test.yml)
-
+[![Test](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/test.yml)
 ## Cloud-Hosted Notebook Data Manipulation
 
 ## Project Requirement
