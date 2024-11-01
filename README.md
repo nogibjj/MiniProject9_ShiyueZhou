@@ -1,6 +1,5 @@
-[![Format](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/format.yml)
+[![CI](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/cicd.yml)
 
-[![Test](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/MiniProject9_ShiyueZhou/actions/workflows/test.yml)
 ## Cloud-Hosted Notebook Data Manipulation
 
 ## Project Requirement
@@ -25,11 +24,10 @@
 <h/> </h> 
  
 
-
-## Project Report in Markdown  
-[Link Text](DescribeStat.md)
 ## Project Report in Jupyter Notebook   
 [Link Text](main.ipynb)
+
+
 
 # Project Main Structure
 This section explains the purpose of each file and directory in the project.
