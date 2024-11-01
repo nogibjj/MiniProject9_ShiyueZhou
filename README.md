@@ -6,26 +6,29 @@
 
 [![Test](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/IndividualProject1_Shiyue_Zhou/actions/workflows/test.yml)
 
-## Continuous Integration using Gitlab Actions of Python Data Science Project
-
-## Demo
-https://youtu.be/UoD38zbSrUc
+## Cloud-Hosted Notebook Data Manipulation
 
 ## Project Requirement
 
-* <h/> **Jupyter Notebook with:** </h>  
-- Cells that perform descriptive statistics using Polars or Panda.  
-- Tested by using nbval plugin for pytest  
-* <h/> **Makefile with the following:** </h>  
-- Run all tests (must test notebook and script and lib)  
-- Formats code with Python black   
-- Lints code with Ruff   
-- Installs code via:  pip install -r requirements.txt  
+* <h/>Set up a cloud-hosted Jupyter Notebook (e.g., Google Colab)</h>
+- Successfully setting up a cloud-hosted Jupyter Notebook at Google Colab.  
+![Data Manipulation Workflow](Colab_mini9.png)
+ 
 <h/> </h> 
-* **test_script.py to test script**
-* **test_lib.py to test library**  
-* **Pinned requirements.txt**  
-* **Gitlab Actions performs all four Makefile commands with badges for each one in the README.md**  
+* <h/> Perform data manipulation tasks on a sample dataset </h>  
+    - 1. Filter Rows by State
+    Here, we filter the dataset to include only rows where the state column has the value "NY" (New York). This creates a new DataFrame (df_ny) that contains only data specific to New York state. The head(5) function displays the first five rows of this filtered DataFrame for verification.
+    - 2. Sort Data by a Specific Column
+    After filtering, the data is sorted by the column pvi_22 in descending order. Sorting helps in identifying the rows with the highest pvi_22 values at the top of the DataFrame.
+    - 3. Sort Data by a Specific Column
+    After filtering, the data is sorted by the column pvi_22 in descending order. Sorting helps in identifying the rows with the highest pvi_22 values at the top of the DataFrame.
+    - 4. Reset Index
+    After sorting, we reset the index of df_ny. Resetting the index helps renumber the rows sequentially from 0, making the first row’s index 0. The parameter drop=True ensures that the old index is not added as a new column.
+    - 5. Testing the Sorting
+    Finally, an assertion is used to verify that the first row (index 0) has the maximum value in the pvi_22 column. This is a simple test to ensure that the data is sorted correctly, with the highest pvi_22 value at the top.
+
+<h/> </h> 
+ 
 
 
 ## Project Report in Markdown  
